@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="606214ce-023d-45c9-8814-20c4bf07d1e0" name="Changes" comment="The null problem in the files was solved by updating the constructor in the order file, line 27. It was empty before thats why when it's called, the method couldn't find the constructor to write to order.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2HgMj0pARKDRQvJnG2G4t635OsI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/alice/OneDrive/Desktop/WE-Java-Training/flooringmastery&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.5218391&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\alice\OneDrive\Desktop\WE-Java-Training\FlooringMastery22\files\Orders" />
+      <recent name="C:\Users\alice\OneDrive\Desktop\WE-Java-Training\FlooringMastery22\files\Data" />
+      <recent name="C:\Users\alice\OneDrive\Desktop\WE-Java-Training\FlooringMastery22\files\Backup" />
+      <recent name="C:\Users\alice\OneDrive\Desktop\WE-Java-Training\FlooringMastery22\files" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.App">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sal.fm.App" />
+      <module name="FlooringMastery22" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sal.fm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DaoTests.editOrderDao" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FlooringMastery22" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sal.fm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sal.fm" />
+      <option name="MAIN_CLASS_NAME" value="com.sal.fm.DaoTests" />
+      <option name="METHOD_NAME" value="editOrderDao" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DaoTests.getOrderDao" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FlooringMastery22" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sal.fm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sal.fm" />
+      <option name="MAIN_CLASS_NAME" value="com.sal.fm.DaoTests" />
+      <option name="METHOD_NAME" value="getOrderDao" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DaoTests.listAllOrdersDao" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FlooringMastery22" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sal.fm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sal.fm" />
+      <option name="MAIN_CLASS_NAME" value="com.sal.fm.DaoTests" />
+      <option name="METHOD_NAME" value="listAllOrdersDao" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceTests.editOrderService" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FlooringMastery22" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sal.fm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sal.fm" />
+      <option name="MAIN_CLASS_NAME" value="com.sal.fm.ServiceTests" />
+      <option name="METHOD_NAME" value="editOrderService" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App" />
+        <item itemvalue="JUnit.ServiceTests.editOrderService" />
+        <item itemvalue="JUnit.DaoTests.editOrderDao" />
+        <item itemvalue="JUnit.DaoTests.listAllOrdersDao" />
+        <item itemvalue="JUnit.DaoTests.getOrderDao" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="606214ce-023d-45c9-8814-20c4bf07d1e0" name="Changes" comment="" />
+      <created>1668702407252</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1668702407252</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Implemented methods in UserIOImpl file">
+      <created>1668717088622</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1668717088622</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Completed implementing all the methods in the UserIOImpl file">
+      <created>1668719325436</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1668719325436</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Declared the fields for Order class">
+      <created>1668721950246</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1668721950246</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Added hashCode and equals methods in Order class">
+      <created>1668724339381</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1668724339381</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Created the fields and constructors for Product class in model folder">
+      <created>1668725478663</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1668725478663</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Implemented override methods: hashCode, equals, working on toString in Product file">
+      <created>1668726395406</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1668726395407</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Finished Product file in model">
+      <created>1668787762000</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1668787762000</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Finished Tax class and its constructors for tax file">
+      <created>1668789116858</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1668789116858</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Updated the Order class in Order file">
+      <created>1668789199574</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1668789199574</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Created the first method in the View class.">
+      <created>1668790765503</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1668790765503</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Created the greeting Banner and displayMainMenu methods in View file">
+      <created>1668796028087</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1668796028087</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Generated Getters and Setters for Order class">
+      <created>1668797246868</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1668797246868</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Generated readDate method in UserIO">
+      <created>1668799368477</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1668799368477</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Implemented the method to get a date to display an order on the banner">
+      <created>1668799475823</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1668799475823</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Finished the FlooringMasteryException class in Dao">
+      <created>1668802309179</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1668802309179</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Started working on the Controller file">
+      <created>1668802667215</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1668802667215</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Working on the run() method in the Controller">
+      <created>1668804099023</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1668804099023</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Restructuring the files directory">
+      <created>1668815524979</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1668815524979</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Initialized the variables using the constructor which takes in 12 string parameters">
+      <created>1668818818009</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1668818818009</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Initialized the variables using the constructor which takes in 3 string parameters in Tax class">
+      <created>1668820586389</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1668820586389</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Created methods for Controller class">
+      <created>1668821479256</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1668821479256</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Implemented the add order method and edit order method">
+      <created>1668822166978</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1668822166978</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Implemented the remove order method in the Controller class">
+      <created>1668823524197</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1668823524197</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Added methods to View class from the Constructor methods">
+      <created>1668824470266</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1668824470266</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Created methods for Flooring mastery service interface">
+      <created>1668826332017</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1668826332017</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Implemented the methods in flooring mastery impl service class">
+      <created>1668827848613</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1668827848613</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Created methods in FlooringMasteryDao interface">
+      <created>1668828240397</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1668828240397</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Created methods for FileDao interface">
+      <created>1668829436496</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1668829436496</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Implemented marshallOrder method in FileDaoImpl file">
+      <created>1668998329025</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1668998329025</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Implemented unmarshallOrder method in FileDaoImpl file">
+      <created>1668998696545</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1668998696545</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Implemented writeOrders method in FileDaoImpl file">
+      <created>1668999045793</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1668999045793</updated>
+    </task>
+    <task id="LOCAL-00039" summary="There's an error occurred while implementing readOrders method in FileDaoImpl file">
+      <created>1669001164161</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1669001164161</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Implemented the getNextOrderNumber method in FileDaoImpl">
+      <created>1669001572192</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1669001572192</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Implemented the getFile method in FileDaoImpl">
+      <created>1669001799246</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1669001799246</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Created dateToString method">
+      <created>1669001901262</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1669001901262</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Implemented the unmarshallTax method in FileDaoImpl">
+      <created>1669002037058</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1669002037058</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Implemented the readTax method in FileDaoImpl">
+      <created>1669002294188</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1669002294188</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Implemented the unmarshallProducts and readProduct methods in FileDaoImpl">
+      <created>1669002695029</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1669002695029</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Started working on FlooringMasteryDaoImpl file">
+      <created>1669003201122</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1669003201122</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Implemented getOrder in FMDaoImpl file">
+      <created>1669004802550</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1669004802550</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Build order">
+      <created>1669005820097</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1669005820097</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Implemented addNewOrder method in FMDaoImpl but got an error with return addedOrder">
+      <created>1669006444125</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1669006444125</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Implemented editOrder method in FMDaoImpl but got an error with return newOrder">
+      <created>1669007003907</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1669007003908</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Implemented removeOrder, and getProduct, getTax methods in FMDaoImpl">
+      <created>1669009024709</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1669009024709</updated>
+    </task>
+    <task id="LOCAL-00052" summary="Implemented methods in View">
+      <created>1669011237508</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1669011237508</updated>
+    </task>
+    <task id="LOCAL-00053" summary="Finished the view file">
+      <created>1669011466233</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1669011466233</updated>
+    </task>
+    <task id="LOCAL-00054" summary="Created AppTest class for Test file">
+      <created>1669015322042</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1669015322042</updated>
+    </task>
+    <task id="LOCAL-00055" summary="Everything is almost done. There is a bug while trying to write the new order to file. ERROR occurred. Got zero and NULL value for the new order in the order file">
+      <created>1669015906192</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1669015906192</updated>
+    </task>
+    <task id="LOCAL-00056" summary="The null problem in the files was solved by updating the constructor in the order file, line 27. It was empty before thats why when it's called, the method couldn't find the constructor to write to order.">
+      <created>1669050172720</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1669050172721</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Created methods for Flooring mastery service interface" />
+    <MESSAGE value="Implemented the methods in flooring mastery impl service class" />
+    <MESSAGE value="Created methods in FlooringMasteryDao interface" />
+    <MESSAGE value="Created methods for FileDao interface" />
+    <MESSAGE value="Implemented marshallOrder method in FileDaoImpl file" />
+    <MESSAGE value="Implemented unmarshallOrder method in FileDaoImpl file" />
+    <MESSAGE value="Implemented writeOrders method in FileDaoImpl file" />
+    <MESSAGE value="There's an error occurred while implementing readOrders method in FileDaoImpl file" />
+    <MESSAGE value="Implemented the getNextOrderNumber method in FileDaoImpl" />
+    <MESSAGE value="Implemented the getFile method in FileDaoImpl" />
+    <MESSAGE value="Created dateToString method" />
+    <MESSAGE value="Implemented the unmarshallTax method in FileDaoImpl" />
+    <MESSAGE value="Implemented the readTax method in FileDaoImpl" />
+    <MESSAGE value="Implemented the unmarshallProducts and readProduct methods in FileDaoImpl" />
+    <MESSAGE value="Started working on FlooringMasteryDaoImpl file" />
+    <MESSAGE value="Implemented getOrder in FMDaoImpl file" />
+    <MESSAGE value="Build order" />
+    <MESSAGE value="Implemented addNewOrder method in FMDaoImpl but got an error with return addedOrder" />
+    <MESSAGE value="Implemented editOrder method in FMDaoImpl but got an error with return newOrder" />
+    <MESSAGE value="Implemented removeOrder, and getProduct, getTax methods in FMDaoImpl" />
+    <MESSAGE value="Implemented methods in View" />
+    <MESSAGE value="Finished the view file" />
+    <MESSAGE value="Created AppTest class for Test file" />
+    <MESSAGE value="Everything is almost done. There is a bug while trying to write the new order to file. ERROR occurred. Got zero and NULL value for the new order in the order file" />
+    <MESSAGE value="The null problem in the files was solved by updating the constructor in the order file, line 27. It was empty before thats why when it's called, the method couldn't find the constructor to write to order." />
+    <option name="LAST_COMMIT_MESSAGE" value="The null problem in the files was solved by updating the constructor in the order file, line 27. It was empty before thats why when it's called, the method couldn't find the constructor to write to order." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NumberFormatException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
